@@ -22,19 +22,19 @@ public class task7 {
 
         public static void main (String[] args) {
 
-            task7 addnum = new task7();
+            task7 calc = new task7();
 
             int a = 1000;
             int b = 10;
 
             System.out.println("Addition Operation");
-            System.out.println("a = " + a + "\nb = " + b + "\na + b = " + addnum.addTwoNumbers(a, b));
-            System.out.println("Subtraction Operation");
-            System.out.println("a = " + a + "\nb = " + b + "\na + b = " + addnum.minusTwoNumbers(a, b));
-            System.out.println("Multiplication Operation");
-            System.out.println("a = " + a + "\nb = " + b + "\na + b = " + addnum.multiplyTwoNumbers(a, b));
-            System.out.println("Division Operation");
-            System.out.println("a = " + a + "\nb = " + b + "\na + b = " + addnum.divideTwoNumbers(a, b));
+            System.out.println("a = " + a + "\nb = " + b + "\na + b = " + calc.addTwoNumbers(a, b));
+            System.out.println("\nSubtraction Operation");
+            System.out.println("a = " + a + "\nb = " + b + "\na - b = " + calc.minusTwoNumbers(a, b));
+            System.out.println("\nMultiplication Operation");
+            System.out.println("a = " + a + "\nb = " + b + "\na * b = " + calc.multiplyTwoNumbers(a, b));
+            System.out.println("\nDivision Operation");
+            System.out.println("a = " + a + "\nb = " + b + "\na / b = " + calc.divideTwoNumbers(a, b));
         }
 
 }
