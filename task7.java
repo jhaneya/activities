@@ -15,7 +15,7 @@ public class task7 {
 
     }
 
-    int divideTwoNumbers (int a, int b) {
+    double divideTwoNumbers (double a, double b) {
         return a / b;
 
     }
@@ -24,9 +24,9 @@ public class task7 {
 
             task7 addnum = new task7();
 
-            int a = 3456;
-            int b = 394056;
-            
+            int a = 1000;
+            int b = 10;
+
             System.out.println("Addition Operation");
             System.out.println("a = " + a + "\nb = " + b + "\na + b = " + addnum.addTwoNumbers(a, b));
             System.out.println("Subtraction Operation");
